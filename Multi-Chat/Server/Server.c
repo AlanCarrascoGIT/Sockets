@@ -2,7 +2,6 @@
 HANDLE hilos[MAX_HILOS] = { NULL };
 HANDLE eventos[MAX_HILOS];
 int hilo_activo[MAX_HILOS] = { 0 };
-SOCKET socket_disp[MAX_HILOS] = { 0 };
 int pun = 0;
 DWORD WINAPI recibir_chat(LPVOID pack) {
 	AUX* paquete = (AUX*)pack;

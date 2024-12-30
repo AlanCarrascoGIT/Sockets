@@ -1,0 +1,11 @@
+# Directories
+.vs/
+x64/
+Debug/
+
+# Files
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+*.log

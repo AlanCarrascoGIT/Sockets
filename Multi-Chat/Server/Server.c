@@ -103,7 +103,9 @@ int conectar_cliente(SOCKET* sock) {
 			return 0;
 		}
 	}
-
+	free(aux);
+	free(sock);
+	free(status);
 	printf("Clientes llenos\n");
 	return 1;// Indicar fallo
 }
